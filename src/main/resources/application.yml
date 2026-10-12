@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/big_event
+    username: root
+    password: 2021090057
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+deepseek:
+  api-key: sk-0ac3dbf6db6f45d89acde272b38c63b9
+  base-url: https://api.deepseek.com
+  model: deepseek-v4-flash
+
+server:
+  port: 8083
